@@ -1,0 +1,251 @@
+/* BackgroundColor: #533A7B */
+/* Number Card color: #60B2E5 */
+/* Font: white */
+
+.AppBody {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #533a7b;
+  height: 100%;
+}
+
+.App {
+  color: white;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Dosis', sans-serif;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.titleSpan {
+  font-size: 3.5rem;
+}
+
+.gitlogo img {
+  margin-left: 4px;
+  margin-bottom: 5px;
+  height: 28px;
+}
+
+.game {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.targetSum {
+  min-height: 320px;
+}
+
+.reset {
+  background-color: #35254f !important;
+  border-color: #3d2b5a !important;
+  margin-top: 7%;
+  margin-bottom: 1em;
+  font-size: 1.4em !important;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.resetLogout {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.userName {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 12px;
+  font-size: 20px;
+  background-color: white;
+  color: #533a7b;
+  font-weight: bold;
+  border-radius: 48px;
+  margin-top: 30px;
+  box-shadow: -2px 0 18px 6px #3d2b5a;
+}
+
+.userNameSpan {
+  margin-left: 12px;
+}
+
+.profilepic {
+  border-radius: 48px;
+  height: 50px;
+  width: 50px;
+}
+
+.logout {
+  font-size: 1.4em !important;
+  text-decoration: underline;
+  background-color: #533a7b !important;
+  border: none !important;
+  margin-top: 21px;
+  top: 0;
+  right: 0;
+}
+
+.target,
+.current,
+.selected,
+.options {
+  font-family: 'Source Code Pro', monospace;
+  color: #533a7b;
+}
+
+.number,
+.optionsNumber,
+.selectedNumber {
+  font-size: 2em;
+}
+
+.optionsDiv,
+.selectedNumberDiv,
+.listSelected {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.numberOptions {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.selected,
+.mainSelected {
+  min-height: 120px;
+}
+
+.selectedNumber {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #533a7b;
+  text-align: center;
+  width: 3em;
+  color: white;
+  border-radius: 0.19em;
+}
+
+.optionsNumber {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #533a7b;
+  text-align: center;
+  width: 4em;
+  color: white;
+  border-radius: 0.19em;
+}
+
+.dottedBorder {
+  border: dotted;
+}
+
+.grey {
+  margin-top: 1em;
+  color: rgb(158, 158, 158);
+}
+
+.red {
+  color: red;
+}
+
+.winMessage {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 26em;
+  border-radius: 0.5em;
+  border: white solid;
+  margin-top: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* LOGIN CSS */
+
+.login {
+  margin: auto;
+  width: 45%;
+  padding: 10% 0;
+  /* text-align: center; */
+}
+
+.login > form {
+  font-family: 'Source Code Pro', monospace;
+  background-color: white;
+  border: none;
+}
+
+.formEmail,
+.formPassword,
+.formName,
+.formPhone {
+  background-color: #533a7b;
+  margin: 0px !important;
+  padding-bottom: 10px;
+}
+
+.formEmail > label,
+.formPhone > label,
+.formName > label,
+.formPassword > label {
+  color: white;
+}
+
+#emailHelp {
+  color: grey;
+}
+
+.formPasswordInt,
+.formPhone {
+  padding-bottom: 30px;
+}
+
+.loginButton {
+  padding: 2px !important;
+  background: #35254f !important;
+  border-color: #3d2b5a !important;
+  font-size: 1.4em !important;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.createAccountLink {
+  text-decoration: underline;
+  padding-top: 12px;
+}
+
+.createAccountLink a {
+  color: white;
+}
+
+.create {
+  margin: auto;
+  width: 45%;
+  padding: 10% 0;
+  /* text-align: center; */
+}
+
+.create > form {
+  font-family: 'Source Code Pro', monospace;
+  background-color: white;
+  border: none;
+}
+
+.redBorder {
+  border: red 2px solid !important;
+}
+
+.notFoundError,
+.incorrectPass {
+  color: rgb(134, 130, 130);
+  font-size: 1em;
+}
